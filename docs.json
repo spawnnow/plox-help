@@ -16,8 +16,8 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
+              "getting-started/how-to-use",
+              "getting-started/tracking-your-dataroom",
               "development"
             ]
           },
