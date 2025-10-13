@@ -17,8 +17,8 @@
             "group": "Getting started",
             "pages": [
               "getting-started/how-to-use",
-              "getting-started/tracking-your-dataroom",
-              "development"
+              "getting-started/tracking-your-document",
+              "getting-started/usage-limits"
             ]
           },
           {
@@ -91,7 +91,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:rohan@plox.in"
       }
     ],
     "primary": {
