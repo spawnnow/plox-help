@@ -1,89 +1,96 @@
 ---
 title: "Allow Access to Specific Emails Only"
-description: "Restrict file access in Plox to specific email addresses for tighter control and enhanced security."
+description: "Restrict file access in Plox to specific email addresses for tighter control and enhanced security. Give specific emails access to your document for better security. Emails that are not added by you will not be able to view the document."
 ---
 
 # Allow Access to Specific Emails Only
 
-## From the User’s Perspective
+<Tip>
+  The ‘**Allow Specific Users**’ and ‘**Email Protected**’ features cannot be used together at the same time
+</Tip>
 
-### How to Enable and Set it up
+## What is the ‘Allow Specific Users’ feature?
 
-1. Go to your file’s dashboard.\
-   Locate the file you want to protect. You’ll see a row of options such as Share, Analytics, Security, and Delete.
-2. Open the Security settings.\
-   Click the lock icon labeled “**Security**” next to the file name.
-3. Enable “**Allow Specific Users**”\
-   Turn on this option from the list of available security features.
-4. Add the email addresses.\
-   Enter the email IDs of the users who should have access to this file. You can add multiple emails.
-5. Save your changes.\
-   Click "Continue". The file is now locked to the listed email addresses only.
+By using ‘**Allow Specific Users**’ security feature for a document, the user can:
 
-### How It Works
+- Prevent unauthorized users from viewing the document
+- Keep track of who has access to a document
 
-- Only the specified email addresses can open and view the file.
-- Unauthorized users will see a “Restricted Access” message when trying to open the shared link.
-- You can edit or remove allowed emails anytime from the same Security panel.
-- Once this restriction is enabled, the Share option becomes available for the file.
+This feature allows the user to have full control over which team members,employees and clients can view the document. Access can be revoked anytime if the document owner wants to remove the viewing access of a specific email ID.
 
-### Why use this feature?
+## How to enable ‘Allow Specific Users’
 
-- Prevent unauthorized access, even if the link leaks
-- Ensure only trusted teammates, clients, or reviewers can view your doc
-- Avoid accidental sharing within larger organizations
-- Useful when collaborating with small teams or company-only viewers
+- Locate the file from ‘**Documents**’ or ‘**Datarooms**’ section from the left side-bar
+- After locating the file, it will have an information panel with its file name, status, security, etc
+- On the right-side of this panel, there are 4 buttons. 1)**Share**, 2)**Analytics**, 3)**Security** and 4)**Delete** represented by an arrow, graph, lock and dustbin icon respectively.
 
-### Best Use Cases
+{Insert image of file panel}
 
-- **Internal Team Sharing**
+- Click on the lock( 🔒) icon \> Open ‘**Configure Security Controls**’ side-bar on the right \> Find ‘**Allow Specific Users**’ option.
 
-  Perfect for startups or agencies who want to securely share plans, designs, or decks within their team, just add internal emails.
-- **Client-Specific Files**
+{Insert security side-bar image}
 
-  Share proposals, invoices, or reports with only your client’s email address, ensuring it doesn’t get passed around their org.
-- **Private Feedback or Review**
+- Toggle the ‘**Allow Specific Users**’ on. This displays the toggle filled with colour and opens an email address box. 
 
-  When sending drafts to reviewers, restrict it to only the people giving feedback, no unintentional viewers.
-- **Board or Stakeholder Documents**
+{Insert allow specific users box image}
 
-  Use this feature to share performance updates or confidential strategy docs with just your board members or select advisors.
+- Enter the email ID of the person you want to give access to view the document.
+- If you want to add another email ID, click the ‘**\+ Email**’ and type the email ID you want to add
+- Repeat the same process to add more email IDs in the list
 
-## From the Viewer’s Perspective
+## How to remove users from the list
 
-When someone clicks the shared link:
+If in case, you’d like to remove specific email IDs from the list of existing viewers who have been been given access to view the document, follow the steps below:
 
-- If their email is on the **allowed list**, they’ll be prompted to enter it and access the document normally
-- If their email is **not** on the list, they will see an **access denied** message and won’t be able to proceed
+- Click the lock( 🔒) icon \> open ‘**Configure** **Security** **Controls**’ side-bar on the right \> find ‘**Allow** **Specific** **Users**’ option.
+- The ‘**Allow** **Specific** **Users**’ option will be already toggled on and the list of emails will be displayed in this section.
+- Next to each email ID, there will be a trash can icon(delete)
 
-This ensures your file stays _strictly private_, even if the link is forwarded.
+{insert image with arrow pointing to the delete icon}
 
-## Notes on Usage
+- Click the trash can(delete) icon to remove the specific email ID from the viewing list.
 
-- This is an identity-based control, not verification, combine it with **Email Verification via OTP** for tighter security.
-- Make sure the emails you enter are **accurate and accessible**, or users will be blocked.
-- Viewers must enter the exact email you added to gain access.
+This will immediately prevent that email ID from viewing the document. They will not receive any notification about this action done by the document owner. 
+
+## Use cases
+
+- **Team Managers**
+
+In case team managers want to share a document among their team members but prevent leaks or unauthorized employees from viewing the document, they can add the email IDs of the specific team members.
+
+- **Investment bankers**
+
+By applying this feature, investment bankers can safely share confidential documents to specific clients or employees and avoid any type of data breach within their organisation.
+
+- **Startup founders**
+
+Founders who share extremely important documents like financials, user data, expenses, pitch decks, etc can use this feature to prevent their business from getting copied by competitors.
 
 ## FAQs
 
-- Can I add multiple emails at once?
+<Accordion title="Can I add multiple emails at once?">
+  Yes. You can enter multiple email addresses by clicking ‘+ Email’ .
+</Accordion>
 
-  Yes. You can enter multiple email addresses, separated by commas or by pressing enter after each one.
-- What happens if someone forwards the link?
+<Accordion title="Can I add multiple emails at once?">
+  Yes. You can enter multiple email addresses by clicking ‘**\+ Email**’ .
+</Accordion>
 
-  If their email is not on the allowed list, they won’t be able to view the document—even if they have the link.
-- Can I edit or remove emails later?
+<Accordion title="What happens if someone forwards the link?">
+  If their email is not on the allowed list, they won’t be able to view the document, even if they have the link.
+</Accordion>
 
-  Absolutely. You can add, edit, or remove emails anytime in the Access Controls panel.
-- Do viewers need to verify their email with an OTP?
+<Accordion title="Can I edit or remove emails later?">
+  Absolutely. You can add, edit, or remove emails anytime in the '**Allow Specific Users**' panel.
+</Accordion>
 
-  Not by default. If you want to verify the person entering the email, combine this feature with Email Verification via OTP.
-- Will I see which of the allowed emails actually viewed the document?
+<Accordion title="Do viewers need to verify their email with an OTP?">
+  The '**Verified Emails Only**' (OTP) feature cannot be used with the '**Allow Specific Users**' feature.
+</Accordion>
 
+<Accordion title="Will I see which of the allowed emails actually viewed the document?">
   Yes. Plox’s analytics will show you who accessed the document from your approved list.
-- Is this available in all plans?
-
-  This feature is available in the Plus and Pro plans.
+</Accordion>
 
 ## Related Articles
 
